@@ -15,4 +15,4 @@ except Exception as e:
     print("Something went wrong")
     
 finally: 
-    print("Thanks for using the divider app")
+    print("Thanks for using the divider app") 

@@ -1,19 +1,17 @@
-user_input = input("Enter a number to divide 100 by: ")
+user_input = input("Please enter to fivide by 100: ") 
 
 try: 
-    number = int(user_input)
-    result = 100/number 
-    print(f"100 divided by {number} is {result}")
-    
+    number = int (input(user_input))
+    result = 100 / number
+    print(f"100 divide by {number} is {result}")
 except ValueError: 
-    print("That wasn't a number. Please input a number")
-except ZeroDivisionError: 
+    print("That isn't a number. Please input a valid number")
+except ZeroDivisionError:
     print("You can't divide by zero")
-except Exception as e:
+except Exception as e: 
+    print("Something went worng")
     
-    print("Something went wrong: {e}")
+
 finally: 
-    
     print("Program finished running")
-    
     
