@@ -37,6 +37,6 @@ print(entry)
 name = input("What's your name? ")
 city = input("Where are you? ")
 mood = input("How are you feeling today? ")
-energy = int(input("Energy level (0–10)? "))
+energy = int(input("Energy level (0-10)? "))
 
 log_mood(name, city, mood, energy)
